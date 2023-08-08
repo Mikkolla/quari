@@ -1,0 +1,58 @@
+.join-section {
+    margin: 130rem 0;
+    border-radius: 10px;
+    background: #1C1B1F;
+    padding: 88rem;
+    @include mobile{
+        padding: 20rem;
+    }
+
+
+    &__title {
+
+        color: #FFF;
+
+        text-align: center;
+    font-size: 36px;
+        margin-bottom: 47rem;
+    font-weight: 700;
+
+    }
+
+    &__subscribe {
+        max-width: 717rem;
+        margin-inline:auto ;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 50px;
+        background: #F9F1FE;
+        padding: 10rem 15rem;
+        gap: 10rem;
+        @include tablet{
+            flex-direction: column;
+            gap: 50rem;
+            border-radius: 50rem;
+            
+            
+            .join-section-input{
+                border-radius: 50px;
+                background: #F9F1FE;
+                padding: 10rem 15rem;
+
+            }
+
+        }
+    }
+
+    &__input {
+        padding-left: 16rem;
+        width: 100%;
+        background: transparent;
+        border: 0;
+        
+       }
+
+    &__btn {
+    }
+}

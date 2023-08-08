@@ -1,0 +1,51 @@
+.title{
+    color: var(--paragraph, #262626);
+
+    
+    font-size: 48px;
+    
+    font-weight: 700;
+    margin-bottom: 70rem;
+    text-align: center;
+}
+
+.desc{
+    color: var(--paragraph, #262626);
+text-align: center;
+margin-inline:auto ;
+
+
+font-size: 16rem;
+
+font-weight: 400;
+line-height: normal;
+max-width: 837rem;
+margin-bottom: 125rem;
+}
+
+.btn {
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    padding: 11rem 49rem;
+
+    color: var(--terciary, #F9F1FE);
+
+/* Button */
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+@include mobile{
+    font-size: 14rem;
+}
+    &._primary{
+        background: #8842F0;
+        border-radius: 50px
+
+    }
+}

@@ -1,0 +1,90 @@
+
+.footer {
+    
+   
+    
+    &__container{
+        background: var(--terciary, #F9F1FE);
+        display: flex;
+        gap: 108rem;
+        padding: 106rem 12rem 81rem 12rem;
+
+        @include mobile{
+            margin-top: 40rem;
+            display: flex;
+            flex-direction: column;
+        }
+
+        @include desktop-small{
+            gap: 20rem;
+            margin-top: 20rem;
+
+
+        }
+    }
+
+		&__about {
+		}
+
+		&__logo {
+            color: var(--paragraph, #262626);
+
+
+        font-size: 24px;
+
+        font-weight: 600;
+        display: flex;
+        margin-bottom: 26rem;
+
+		}
+
+		&__decs {
+            color: var(--paragraph, #262626);
+
+
+        font-size: 16px;
+        
+        font-weight: 400;
+        max-width: 431rem;
+        
+		}
+
+		&__info {
+		}
+
+		&__info-header {
+            font-weight: 600;
+            font-size: 20rem;
+            margin-bottom: 9rem;
+		}
+
+		&__info-value {
+            margin-bottom: 37rem;
+            font-size: 16rem;
+            font-weight: 400;
+            display: inline-flex;
+            gap: 16rem;
+		}
+
+		&__hours {
+		}
+
+		&__hours-header {
+            margin-bottom: 17rem;
+
+            color: var(--paragraph, #262626);
+
+
+             font-size: 20px;
+
+            font-weight: 600;
+
+		}
+
+		&__hours-value {
+            margin-bottom: 15rem;
+            font-size: 16rem;
+            font-weight: 400;
+            display: grid;
+		}
+}

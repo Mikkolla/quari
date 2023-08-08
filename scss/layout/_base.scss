@@ -1,0 +1,19 @@
+body {
+	font-family: var(--ff);
+	font-size: 16rem;
+
+font-family: 'Work Sans', sans-serif;
+}
+
+html{
+	font-size: 1px;
+	@include mobile{
+		font-size: 0.9px;
+	}
+}
+.container{
+	max-width: calc(1170rem+40rem);
+	padding: 0 20rem;	
+	margin-inline: auto;
+	width: 100%;
+}

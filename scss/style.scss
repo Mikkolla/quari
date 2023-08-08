@@ -1,0 +1,23 @@
+// vendors
+@import 'vendors/reset';
+
+// utils
+@import 'utils/vars';
+@import 'utils/mixins';
+@import 'utils/fonts';
+
+
+// layout
+@import 'layout/base';
+@import 'layout/scroll';
+@import 'layout/grid';
+
+// components
+@import 'components/header';
+@import 'components/search';
+@import 'components/common';
+@import 'components/servisec';
+@import 'components/doctors-section';
+@import 'components/join-section';
+@import 'components/footer';
+@import 'components/carousel';

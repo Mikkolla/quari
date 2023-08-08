@@ -1,0 +1,63 @@
+
+.mySlides {
+}
+.fade {
+}
+.numbertext {
+}
+
+
+.text {
+}
+
+
+.lab{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20rem;
+    margin-bottom: 40rem; 
+    
+
+    @include tablet{
+        
+        width: 100%;
+        
+
+    }
+    @include mobile{
+        padding-top: 100rem;
+    }
+    
+}
+.img-lab{
+   
+    
+}
+
+
+.text{
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute ;
+    top: 0;
+}
+
+.dot{
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    display: inline-block;
+    transition: background-color 0.6 ease;
+ 
+ 
+ 
+ 
+ 
+    border-radius: 50%;
+}
+
+
